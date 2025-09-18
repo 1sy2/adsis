@@ -1,0 +1,42 @@
+.menu-container{
+    
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: center;
+			align-items: center;
+			width:100%;
+}
+		.menu-button{
+			background-color: rgb(255, 255, 255);
+			color:black;
+			font-family: Arial;
+			display:flex;
+			height: 43px;
+			width: fit-content;
+			flex-shrink: 0;
+			border: 2px solid rgb(0, 0, 0);
+			border-radius: 50px;
+			align-items: center;
+			font-size: 20px; 
+			font-weight: bold;
+}
+
+
+		.menu-button:hover{
+			background-color: black;
+			color:white;
+		}
+        .swiper {
+      width: 95vw;
+      margin: 50px auto;
+	 
+    }
+		.swiper-button-next{
+			color: white;
+			top: 35%;
+		}
+		.swiper-button-prev{
+			color: white;
+			top: 35%;
+		}

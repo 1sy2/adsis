@@ -1,0 +1,160 @@
+@font-face {
+	font-family: Arial;
+	font-style: normal;
+}
+
+/* Добавляем общее правило для всех элементов */
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header-container{
+	font-family: Arial;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%; /* Меняем fit-content на 100% */
+}
+
+.galery{
+	font-family: Arial;
+	font-size: 26px;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%; /* Меняем fit-content на 100% */
+}
+
+.bigtext {
+    position: absolute;
+    bottom: 50px;
+    color: white;
+    font-weight: bold;
+    width: 100%; /* Добавляем */
+    left: 0; /* Добавляем */
+    padding: 0 20px; /* Добавляем отступы */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    width: 100%; /* Добавляем */
+}
+
+.big-button-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Меняем 63% на 100% */
+}
+
+.big-button {
+	font-family: Arial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    font-size: 103px;
+    background-color:white;
+    width: 100%;
+}
+
+.big-button:hover {
+	font-family: Arial;
+    background-color: black;
+    color: white;
+}
+
+.background-image {
+    width: 100%;
+    max-height: 1080px;
+    object-fit: cover;
+}
+
+.text-right{
+	font-size: 40px;
+	font-family: Arial;
+    display:flex;
+    align-items: flex-start;
+    justify-content: right;
+    width: 100%; /* Меняем fit-content на 100% */
+    flex-direction: column;
+    padding: 0 20px; /* Добавляем отступы */
+}
+
+.quote-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+    width: 100%; /* Добавляем */
+}
+
+.menu-button{
+    background-color: rgb(255, 255, 255);
+    color:black;
+    font-family: Arial;
+    display:flex;
+    height: 43px;
+    width: fit-content;
+    flex-shrink: 0;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    align-items: center;
+    font-size: 19px; 
+	font-weight: bold;
+    margin: 0 5px; /* Добавляем отступы между кнопками */
+}
+
+.menu-button:hover{
+    background-color: black;
+    color:white;
+}
+
+.aboutblock{
+    background-color: white;
+    font-family: Arial;
+    display:flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 190px;
+    margin-bottom: 60px;
+    margin-left: 0; /* Убираем фиксированный отступ */
+    padding: 0 20px; /* Добавляем отступы */
+}
+
+.abouttext{
+   margin-left: 50px;
+	font-size: 24px;
+}
+
+/* Обеспечиваем, чтобы body и html занимали всю ширину */
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
